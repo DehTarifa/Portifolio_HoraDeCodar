@@ -1,2 +1,2 @@
-# Portifolio-HoraDeCodar
-Este portifólio foi criado a partir do vídeo hora de codar
+# Landingpage-Enventos
+ Projeto realizado a partir do vídeo Matheus Battisti - Hora de codar

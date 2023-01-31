@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InDecor</title>
+    <!-- Text font -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons Font -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    
+    <header id="event-subscription">
+      <div id="disclaimer">
+        <h2>O Desafio</h2>
+        <p class="about-event">
+          Pouco ainda se sabe sobre a vastidão do universo e o que está contido
+          nele.
+        </p>
+        <p>Data do evento:</p>
+        <p class="event-date">Domingo, 11 de Novembro, a partir das 14h</p>
+      </div>
+
+      <div id="subscription-form">
+        <p>Preencha o formulário para receber os detalhes do evento</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" placeholder="Digite seu nome" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu melhor e-mail" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="text" placeholder="Número de Whatsapp" />
+          </div>
+          <div class="form-group">
+            <label for="interest">Principal interesse</label>
+            <select name="interest">
+              <option value="" disabled selected>Selecione</option>
+              <option value="apartment">Astronomia</option>
+              <option value="house">Foguetes</option>
+              <option value="garden">Espaço</option>
+              <option value="other">Outro</option>
+            </select>
+          </div>
+          <input type="submit" class="btn" value="Quero me inscrever" />
+        </form>
+      </div>
+    </header>
+    <section id="key-benefits">
+      <h2>
+        Cientistas e estudiosos tentam descobrir quantas galáxias parecidas com
+        a nossa existe, mas até o momento é difícil até de presumir um número.
+      </h2>
+      <div class="benefits">
+        <div class="benefit">
+          <div id="benefit-1" class="benefit-img"></div>
+          <p>
+            Um buraco negro é uma região do espaço com um campo gravitacional
+            tão intenso que nem mesmo a luz consegue escapar de dentro dele.
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-2" class="benefit-img"></div>
+          <p>
+            Espaço sideral, espaço exterior ou simplesmente espaço é toda a área
+            física do universo não ocupada por corpos celestes
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-3" class="benefit-img"></div>
+          <p>
+            A maioria dos meteoros é pequena e se desintegra ao entrar em
+            contato com a atmosfera
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="location">
+      <div id="address">
+        <i class="bi bi-geo-alt-fill"></i>
+        <div id="address-details">
+          <p>Av. José Moreira Filho</p>
+          <p>Bairro: Vila Mogilar</p>
+          <p>Abertura: 14h</p>
+        </div>
+      </div>
+      <div id="about-location">
+        <h3>Local de destaque</h3>
+        <p>
+          O evento será realizado em um local prestigiado pelos amantes de
+          astronomia, onde teremos exemplos de vários ambientes, tanto internos
+          como externos.
+        </p>
+      </div>
+    </section>
+    <section id="details">
+      <div class="detail" id="detail-1">
+        <img src="img/hrz-3.jpg" alt="" />
+        <div class="detail-description">
+          <h3>Conheça as novas mudanças no espaço</h3>
+        </div>
+      </div>
+      <div class="detail" id="detail-2">
+        <div class="detail-description">
+          <h3>Oque iremos ver</h3>
+          <ul>
+            <li>Planetas</li>
+            <li>Satélites em orbita</li>
+            <li>Sistema solar</li>
+            <li>Satélites naturais</li>
+            <li>Foguetes</li>
+            <li>E muito mais...</li>
+          </ul>
+        </div>
+        <img src="img/hrz-4.jpg" alt="" />
+      </div>
+      <div class="detail" id="detail-3">
+        <img src="img/hrz-5.jpg" alt="" />
+        <div class="detail-description">
+          <h3>Universo</h3>
+          <ul>
+            <li>Asteroides e cometas</li>
+            <li>Buraco negro</li>
+            <li>Espaço sideral</li>
+            <li>Estrelas no espaço sideral</li>
+            <li>Galáxias</li>
+            <li>E muito mais...</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="cta">
+      <h3>Gostou? Então se inscreva:</h3>
+      <button class="btn">Solicitar Inscrição</button>
+    </section>
+    <footer id="footer">
+      <h3>InDecor</h3>
+      <p>Criado a partir do vídeo - Matheus Battisti - Hora de Codar</p>
+      <p><span>E-mail: </span> denner_tarifa@outlook.com</p>
+      <p>
+        <span>LinkedIn: </span
+        >https://www.linkedin.com/in/denner-tarifa-ribeiro-9a2710187/
+      </p>
+    </footer>
+  </body>
+</html>
